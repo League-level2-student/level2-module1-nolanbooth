@@ -1,0 +1,20 @@
+hello. This is a random text file, for when I am bored and just want to write the pure thoughts in my head. 
+
+Log 1 - 3:30 to 5:00 coding lesson, on October 1st, 2021. 
+I didn't know you could make text files in java. i still have 30 minutes left of class. My average WPM in nitro type is about 78 or something. My highest every speed was 95, but Harrison Liew 
+played on my account and he got 99. Also, Harrison Liew is in the league of amazing programmers, and he is on level 8! He started around the same time as me, and he is insane! I wonder if computer 
+convert text to binary with ASCII or something else. Is my computer conscious and looking and watching me type? that would be cool. It is currently 4:35:20, on October 1st, 2021. I wonder what
+time it will be the next time I look at this log. Maybe it will be tomorrow, or maybe it will be in 6 years. Maybe I will never look at it again. That wouldn't be too much of a loss, I guess. 
+Also, in case you didn't know, I made another one of these logs a few minutes ago on the bottom of robot race or something. It is all commented out so java wouldn't scream at me for adding a bunch
+of random stuff the computer doesn't understand. I have no idea what the kids next door are doing. They are saying something is fake, not sure what. Kids next door are kind of distracting.
+Hey! now I am editing this from the github interface. Interesting. 
+
+Log 3 - 3:30 to 5:00 coding lesson on October 15, 2021
+Oops! I forgot to save the second log to GitHub. I guess we will never know what it said. That's too bad. anyways, I lost my notebook that had about 5 hours of work on it, kind of depressing. 
+I also got 91% on my math quiz, which is pretty decent considering I didn't have any sleep last night. It is almost like a curse, because 2/3 this year that we had a math test, I didn't have any sleep. 
+
+Log 4 - 3:30 to 5:00 Coding lesson on October 22, 2021
+Actually, I got a 93% on my math quiz. what I was looking at was the score for a performance kind of assignment. On the actual quiz, I got a 93%. 
+I got 100% on my history quiz yesterday. Now all my grades except English are A's, although Math and Science are close to slipping to B's, which is scary. I have to make sure to do good on my 
+next math quiz. Also, I found my notebook! Mark (who sits behind me in math), just randomly held up a notebook and asked, "Is this anyone's STEM notebook"? I said yes, and then I took it. That was nice,
+but I am not sure that I will continue to code the Race for Dominance project, now that we have a new teacher. Our new teacher, Mrs. Pop, is kind of mean. 
