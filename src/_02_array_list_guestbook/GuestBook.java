@@ -15,6 +15,7 @@ public class GuestBook implements ActionListener {
 	JButton viewName = new JButton();
 	JButton terminateHuman = new JButton();
 	int h = 0;
+	String nameslist;
 	ArrayList<String> names  = new ArrayList<String>();
 	// Create a GUI with two buttons. One button reads "Add Name" and the other button reads "View Names". 
 	// When the add name button is clicked, display an input dialog that asks the user to enter a name. Add
@@ -24,8 +25,14 @@ public class GuestBook implements ActionListener {
 	// Guest #2: Sandy Summers
 	// Guest #3: Greg Sanders
 	// Guest #4: Downy Boners
-
+	// nolan 
+	
 	public void run() {
+		names.add("Bob Handers");
+		names.add("Sandy Summers");
+		names.add("Greg Sanders");
+		names.add("Downy Boners");
+		nameslist = names.get(0) + "\n" + names.get(1) + "\n" +names.get(2) + "\n" +names.get(3);
 		frame.add(panel);
 		panel.add(viewName);
 		panel.add(addName);
@@ -39,26 +46,28 @@ public class GuestBook implements ActionListener {
 		viewName.setText("view names");
 		terminateHuman.setText("T E R M I N A T E   H U M A N");
 		frame.pack();
+		
 	
-	names.add("Bob Handers");
-	names.add("Sandy Summers");
-	names.add("Greg Sanders");
-	names.add("Downy Boners");
 	}
 
 	@Override
-	public void actionPerformed(ActionEvent e) {
-		if(e.getSource() == viewName) {
-			JOptionPane.showMessageDialog(null, "Loading... Viewing Names...");
-		for(String s : names) {
-			System.out.println(s);
-		}
-		System.out.println(" - - - - - - - - - - - - - - - -");
+	public void actionPerformed(ActionEvent eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee) {
+		if(eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.getSource() == viewName) {
+			JOptionPane.showMessageDialog(null, nameslist);
+			
+		System.out.println("viewed names");
 		
-		}if(e.getSource() == addName) {
+		}if(eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.getSource() == addName) {
 			JOptionPane.showMessageDialog(null, "Loading... Getting List...");
 			String hh = JOptionPane.showInputDialog("What name you want to add?");
 			names.add(hh);
+		nameslist = nameslist + "\n" + hh;
+		}if(eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.getSource() == terminateHuman) {
+			String a = JOptionPane.showInputDialog(null, "which name do you want to delete? (Enter a number!)");
+			if(a.equalsIgnoreCase("1")) {
+				
+			}
+		
 		}
 	}
 
