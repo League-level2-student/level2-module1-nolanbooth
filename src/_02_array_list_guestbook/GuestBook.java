@@ -13,7 +13,7 @@ public class GuestBook implements ActionListener {
 	JFrame frame = new JFrame();
 	JButton addName = new JButton();
 	JButton viewName = new JButton();
-	JButton terminateHuman = new JButton();
+	JButton Human = new JButton();
 	int h = 0;
 	String nameslist;
 	ArrayList<String> names  = new ArrayList<String>();
@@ -25,7 +25,7 @@ public class GuestBook implements ActionListener {
 	// Guest #2: Sandy Summers
 	// Guest #3: Greg Sanders
 	// Guest #4: Downy Boners
-	// nolan 
+	// Newline 
 	
 	public void run() {
 		names.add("Bob Handers");
@@ -36,15 +36,14 @@ public class GuestBook implements ActionListener {
 		frame.add(panel);
 		panel.add(viewName);
 		panel.add(addName);
-		panel.add(terminateHuman);
 		frame.setVisible(true);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		addName.addActionListener(this);
 		viewName.addActionListener(this);
-		terminateHuman.addActionListener(this);
+		Human.addActionListener(this);
 		addName.setText("add name");
 		viewName.setText("view names");
-		terminateHuman.setText("T E R M I N A T E   H U M A N");
+		Human.setText("T E R M I N A T E   H U M A N");
 		frame.pack();
 		
 	
@@ -62,13 +61,9 @@ public class GuestBook implements ActionListener {
 			String hh = JOptionPane.showInputDialog("What name you want to add?");
 			names.add(hh);
 		nameslist = nameslist + "\n" + hh;
-		}if(eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.getSource() == terminateHuman) {
-			String a = JOptionPane.showInputDialog(null, "which name do you want to delete? (Enter a number!)");
-			if(a.equalsIgnoreCase("1")) {
-				
-			}
+		}
 		
 		}
 	}
 
-}
+
